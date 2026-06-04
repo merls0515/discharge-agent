@@ -18,7 +18,8 @@ def extract_diagnoses(text, page_number):
             diagnoses.append(
                 DiagnosisFact(
                     diagnosis_name=line,
-                    page_number=page_number
+                    page_number=page_number,
+                    evidence=line
                 )
             )
 

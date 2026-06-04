@@ -1,7 +1,7 @@
 from app.state.schemas import MedicationFact
 
 
-def extract_medications(text, page_number):
+def extract_medications(text, page_num):
 
     medications = []
 
@@ -28,7 +28,8 @@ def extract_medications(text, page_number):
                     name=clean_line,
                     dosage="",
                     frequency="",
-                    page_number=page_number
+                    page_number=page_num,
+                    evidence=line
                 )
             )
 

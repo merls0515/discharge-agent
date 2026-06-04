@@ -1,7 +1,7 @@
 from app.state.schemas import PendingResult
 
 
-def extract_pending_results(text, page_number):
+def extract_pending_results(text, page_num):
 
     results = []
 
@@ -14,7 +14,8 @@ def extract_pending_results(text, page_number):
         results.append(
             PendingResult(
                 test_name="Urine Culture and Sensitivity",
-                page_number=page_number
+                page_number=page_num,
+                evidence="culture and sensitivity report awaited"
             )
         )
 
