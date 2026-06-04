@@ -1,0 +1,7 @@
+google-generativeai
+pymupdf
+paddleocr
+paddlepaddle
+pydantic
+python-dotenv
+pandas

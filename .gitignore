@@ -1,0 +1,9 @@
+venv/
+.env
+outputs/
+__pycache__/
+*.pyc
+
+# Patient documents
+data/patients/*
+!data/patients/.gitkeep
