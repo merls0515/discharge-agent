@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏥 AI Clinical Discharge Summary Agent
+# 🏥 AI Clinical Discharge Summary Agent 
 
 ### Agentic AI system for safe, evidence-backed clinical discharge summary generation
 
